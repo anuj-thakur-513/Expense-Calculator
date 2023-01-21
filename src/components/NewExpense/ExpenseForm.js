@@ -30,7 +30,7 @@ const ExpenseForm = (props) => {
       date: new Date(enteredDate),
     };
 
-    // executing the props function passed to handle the data from the parent NewExpense
+    // executing the props function passed to handle the data from the parent
     props.onSaveExpenseData(expenseData);
     setEnteredTitle("");
     setEnteredAmount("");
